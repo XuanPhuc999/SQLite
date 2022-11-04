@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/iv_gioitinh"
+        android:src="@drawable/girl"
+        android:layout_width="140dp"
+        android:layout_height="130dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ma sinh vien"
+            android:textSize="20dp"
+            android:id="@+id/tv_masv"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ho ten"
+            android:textSize="20dp"
+            android:id="@+id/tv_hoten"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="So dien thoai"
+            android:textSize="20dp"
+            android:id="@+id/tv_sodienthoai"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="20dp"
+            android:id="@+id/tv_email"/>
+
+    </LinearLayout>
+</LinearLayout>
